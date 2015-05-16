@@ -387,6 +387,9 @@
     <ClInclude Include="InstrumentFactory.h">
       <Filter>LMM_instrument\GeneticSwap</Filter>
     </ClInclude>
+    <ClInclude Include="LMM\numeric\Integrator1D.h">
+      <Filter>LMM_numeric</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\pricer\LmmTarnPricer.cpp">
@@ -695,6 +698,12 @@
       <Filter>LMM_helper</Filter>
     </ClCompile>
     <ClCompile Include="LMM\Test\test_beginner.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\numeric\Integrator1D.cpp">
+      <Filter>LMM_numeric</Filter>
+    </ClCompile>
+    <ClCompile Include="test\unit_test\test_Integrator1D.cpp">
       <Filter>Test</Filter>
     </ClCompile>
   </ItemGroup>

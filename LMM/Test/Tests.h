@@ -7,6 +7,9 @@
 #include <LMM/calibration/LmmCalibrationConfig.h>
 #include <LMM/LmmModel/GMatrixMapping.h>
 
+//! numeric test
+void test_Integrator1D(); 
+
 void test_BlackGreek();
 void test_VanillaSwapCreation();
 void test_McTerminalLmm();
@@ -43,8 +46,8 @@ void test_LmmCalibrationMarketData();
 void test_LmmCalibrationSensitivity();	
 void test_LmmRegularizedCalibrationMarketData();
 
-//test JB
-void test_beginner();
+
+void test_beginner(); //test JB
 
 LmmSwaptionMarketData_PTR get_LmmSwaptionMarketData(const LmmCalibrationConfig& config, const std::string& input_file);
 

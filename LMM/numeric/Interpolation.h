@@ -1,5 +1,3 @@
-#ifndef LMM_NUMERIC_INTERPOLATION_H
-#define LMM_NUMERIC_INTERPOLATION_H
 #pragma once
 
 #include <vector>
@@ -70,4 +68,3 @@ namespace numeric //ctntodo change this namespace to interpolation, and remove c
 								  , const std::vector<size_t> & col_indices_missed);
 	};
 }
-#endif /* LMM_NUMERIC_INTERPOLATION_H */

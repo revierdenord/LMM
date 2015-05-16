@@ -9,7 +9,14 @@
 int main()
 {
 	//test JB
-	test_beginner();
+	//test_beginner();
+
+
+	//  numeric Test 
+	test_Integrator1D();
+
+
+
 	//test_Noise();  //------------------------------------Bon SC
 	//test_HGVolatility();  //--------------------------------------Bug: LNK2019 and 1120 
 	//test_Functional(); //----------------------------------Bon
