@@ -9,7 +9,9 @@ int main()
 	//-------------------------------------------test JB  ------------------------------------------
 	//test_beginner();
 	//vanillaSwapComparaisonExemple();
-	Test_McGeneticSwapLMMPricer();
+	//Test_McGeneticSwapLMMPricer();
+
+	test_Integrator1D();
 
 
 	//test_Noise();  //------------------------------------Bon SC
